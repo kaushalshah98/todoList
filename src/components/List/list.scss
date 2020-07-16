@@ -1,0 +1,32 @@
+.list {
+  color: black;
+  width: 300px;
+  background-color: rgb(194, 192, 192);
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 5px;
+  p {
+    padding: 10px;
+    position: relative;
+    input {
+      background-color: transparent;
+      border: 0;
+      color: black;
+      font-size: 18px;
+      :focus {
+        outline: none;
+      }
+    }
+    span {
+      position: absolute;
+      right: 10px;
+      top: 15px;
+      cursor: pointer;
+      color: brown;
+    }
+  }
+  .faicons {
+    margin: 0 5px;
+    font-size: 15px;
+  }
+}
